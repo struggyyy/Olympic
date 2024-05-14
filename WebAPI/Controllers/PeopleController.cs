@@ -29,13 +29,13 @@ namespace YourNamespace.Controllers
                                      fullName = p.FullName,
                                      weight = p.Weight,
                                      height = p.Height,
-                                     events = p.GamesCompetitors.CompetitorEvents
-                                               .Select(ce => new
-                                               {
-                                                   medalName = ce.Medal.MedalName,
-                                                   gameName = ce.GamesCompetitors.Games.GamesName,
-                                                   eventName = ce.Event.EventName
-                                               }).FirstOrDefault()
+                                     //events = p.GamesCompetitors.CompetitorEvents
+                                               //.Select(ce => new
+                                               //{
+                                               //    medalName = ce.Medal.MedalName,
+                                               //    gameName = ce.GamesCompetitors.Games.GamesName,
+                                              //     eventName = ce.Event.EventName
+                                              // }).FirstOrDefault()
                                  })
                                  .FirstOrDefault();
 
