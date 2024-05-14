@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34316.72
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPI", "WebAPI\WebAPI.csproj", "{038B68FB-23F4-4AAF-B632-0CBA724ABE91}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{64B3CCF9-D517-4FB5-B326-EC396A59663D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "Core\Core.csproj", "{2B9AA8F3-4191-434B-BF03-2C7019DEDA14}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{038B68FB-23F4-4AAF-B632-0CBA724ABE91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{038B68FB-23F4-4AAF-B632-0CBA724ABE91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{038B68FB-23F4-4AAF-B632-0CBA724ABE91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{038B68FB-23F4-4AAF-B632-0CBA724ABE91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64B3CCF9-D517-4FB5-B326-EC396A59663D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64B3CCF9-D517-4FB5-B326-EC396A59663D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64B3CCF9-D517-4FB5-B326-EC396A59663D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64B3CCF9-D517-4FB5-B326-EC396A59663D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B9AA8F3-4191-434B-BF03-2C7019DEDA14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B9AA8F3-4191-434B-BF03-2C7019DEDA14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B9AA8F3-4191-434B-BF03-2C7019DEDA14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B9AA8F3-4191-434B-BF03-2C7019DEDA14}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {908E4304-63E5-40A8-BEF6-51BDE3D35596}
+	EndGlobalSection
+EndGlobal
