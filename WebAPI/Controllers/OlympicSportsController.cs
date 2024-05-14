@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System.Linq;
 using Infrastructure.ServiceFiles.Interfaces;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 
 namespace WebAPI.Controllers
@@ -49,5 +50,9 @@ namespace WebAPI.Controllers
             var deleted = _olympicsService.DeleteGameById(id);
             return deleted == false ? NotFound() : Ok($"Game with id {id} was deleted succesfully!");
         }
+
     }
+
+
+
 }

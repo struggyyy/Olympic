@@ -11,9 +11,10 @@ namespace Core.DTO
     {
         public int Id { get; set; }
 
+        public string GamesName { get; set; }
+
         public int GamesYear { get; set; }
 
-        public string GamesName { get; set; }
 
         public string Season { get; set; }
     }
